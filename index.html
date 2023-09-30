@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Daniel Kaye - Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/daniel-kaye" target="_blank"><img src="linkedin.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/daniel-kaye" target="_blank">LinkedIn</a>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">Twitter</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Daniel Kaye</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>Overview</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Daniel Kaye. The website is crafted for your information, where you can gain insight into my academic work and employment positions. 
+		You can also view my skills, interests and contact information.
+
+		I am a final year student at RMIT University, where I am studying a Bachelor of Science (Geospatial Science) (Honours). Located in Melbourne, I am currently working at MNG as a GIS Analyst. 
+		I have a passion for geospatial science, particularly in the environmental area. Evidence of this is seen through my current capstone research project, looking to enhance soil organic carbon sampling strategies through
+		machine learning techniques. I am looking for experience in the earth observation area, using satellite imagery for solving environmental issues.
+		</p>
+		<p>
+		My own personal hobbies include sports (running, tennis, baseketball) and music - I've been playing the trombone for over a decade!
+		</p>	
+		<p> Feel free to contact me regarding future job opportunities related to my identified industry interests. Contact details are found at the bottom of the web page.</p>
+	<img src="Profile_Pic - Copy.jpg" class="self-portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Capstone Research</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		The Capstone Research course is conducted over two semesters, where a year long research project is designed and then implemented. This covers the Honours part of the course.
+		My project was on soil organic carbon and it was related to the Australian Carbon Credits initiative established by the Australian Government. More information on the project and the rationale can be seen in the poster below:
+		<p>
+			<b>Note:</b> To see the poster at a higher resolution, click on the image.
+		</p>
+	</div>	
+	<div class="bar"><h3>Project Poster (Planning Phase)</h3></div>
+	<a href="Academic-Gallery/Capstone_Project_Poster_s3840556.pdf">
+		<img src="Academic-Gallery/capstone.jpg" class="ls-image">
+	  </a>
+	  
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Applied Geospatial Techniques (AGT)</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Applied Geospatial Techniques (AGT) is a practical subject where you develop a location for a proposed amphitheathre. The subject covers three different disciplines:
+		<ul>
+			<li>Surveying</li>
+			<li>Geographical Information Systems (GIS)</li>
+			<li>Cartography</li>
+		</ul>
+		<p>
+		A final map selling the idea can be seen below:
+		</p>
+	</div>	
+	<div class="bar"><h3>Deep Rock Amphitheatre Proposal</h3></div>
+
+		<a href="Academic-Gallery/Deep Rock Amphitheatre Final Map_s3840556.pdf">
+			<img src="Academic-Gallery/Deep_Rock.jpg" class="agt-gis">
+		</a>
+	</div>	
+
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="academic-intro">
+		This page will briefly cover all my current and previous employment opportunities (as of September 2023) within the geospatial science industry. The two main companies that I have worked at 
+		were SmartX and MNG. This page will outline the experience and skills I've gained in the industry along with an
+		overview of my current technological skills.
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>SmartX</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="SmartXlogo.png" class="company-logo">
+	<div class="job-title">GIS Officer & Surveyor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">April 2022 to July 2023</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		My time at SmartX was my first role in the surveying and geospatial industry, which provided me with invaluable experience. In my role, I utilised the Esri Suite (ArcGIS Pro, ArcGIS Online, Esri Field Apps) and Esri's coding language (Arcade), FME (Feature Manipulation Engine), Trimble Business Centre, as well as AutoCAD.
+		<p>
+		Tasks from the geospatial aspect involved developing and building an asset management system for a client. This involved utilising ArcGIS Pro, ArcGIS Online and Esri Field Maps. This system enabled the client to collect 
+		asset information in the relevant SPEC data format in the field. Linked dashboards in the ArcGIS Online environment then enabled the client to interact and produce reports from their data logged in the field. This system not only
+		provided a way for the client to log new assets, but also enabled corresponding maintenance information to be recorded to each feature. Thorough planning delivered more than the client was expecting, but also allowed the potential 
+		for the client to onsell their data in the future.
+		</p>
+		Tasks from the surveying aspect involved processing aerial imagery and cleaning point clouds to produce deliverables for clients. These deliverables were contour maps, earthwork reports and as-builts. 
+		<br>
+	</div>
+
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>MNG</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="McMullen_Nolan.jpg" class="company-logo">
+	<div class="job-title">GIS Analyst</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">June 2023 - Present (as of September 2023)</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		I had the opportunity of working with MNG through their 2023 MNG Scholarship. 
+		This role improved my technical knowledge of the GIS software (QGIS) and gave me experience within GlobalMapper. 
+		<p>		
+		Tasks involved updating Google's roads dataset by using aerial imagery, where roads in new developments were digitised. Updated spatial data in the company's internal system, by identifying static data and finding the equivalent APIs, whilst respecting the license requirements. 
+		I also georeferenced survey plans for clients to view in the company system. QGIS templates were made (profile and drafting templates) for company wide deployment.
+		</p>
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/arcgis-pro-banner-iconbw2.png" class="iconimages"></td>
+				<td>ArcGIS Pro Suite (Pro, Online and Essential Apps)</td>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>QGIS</td>
+            </tr>
+			<tr>
+				<td><img src="Icons/sql.png" class="iconimages"></td>
+				<td>PostGIS</td>
+                <td><img src="Icons/Geoserverbanner-iconbw.png" class="iconimages"></td>
+				<td>GeoServer</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="Icons/adobe-illustrator.png" class="iconimages"></td>
+				<td>Adobe Illustrator</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="Icons/fme.png" class="iconimages"></td>
+				<td>FME Workbench</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/web-design.png" class="iconimages"></td>
+				<td>Programming (Python, Arcade, SQL, HTML, CSS)</td>
+                <td><img src="Icons/Virtual_Machine.png" class="iconimages"></td>
+				<td>Azure Virtual Machine</td>
+            </tr>
+			<tr>
+                <td><img src="Icons/TBC_Logo.png" class="iconimages"></td>
+				<td>Trimble Business Centre</td>
+                <td><img src="Icons/Autodesk2.png" class="iconimages"></td>
+				<td>AutoCAD</td>
+            </tr>
+
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+
+        The attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+		<tr>
+			<th><img src="Icons/arcgis-pro-banner-iconbw2.png" class="icon-attribute"></th>
+            <th><a href="https://esriaustralia.com.au/sites/default/files/2019-04/arcgis-pro-banner-icon.png" title="database icons">ArcGIS Pro icon adapted from Esri</a></th>
+
+            <th><img src="Icons/QGIS-icon.png" class="icon-attribute"></th>
+            <th><a href="https://qgisblog.files.wordpress.com/2016/12/qgis-monochrome-black2.png" title="database icons">QGIS icon from QGIS</a></th>
+
+		</tr>
+		<tr>
+			<th><img src="Icons/sql.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icon created by Stockio - Flaticon</a></th>
+
+            <th><img src="Icons/Geoserverbanner-iconbw.png" class="icon-attribute"></th>
+            <th><a href="https://geoserver.org/img/uploads/geoserver_icon.png" title="database icons">GeoServer icon adapted from GeoServer</a></th>
+
+        </tr>
+        <tr>
+			<th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icon created by monkik - Flaticon</a></th>
+
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icon created by Freepik - Flaticon</a></th>
+
+        </tr>
+        <tr>
+			<th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icon created by Freepik - Flaticon</a></th>
+
+            <th><img src="icons/fme.png" class="icon-attribute"></th>
+            <th><a href="https://cdn.safe.com/wp-content/uploads/2014/01/fme-logo-260x260.png" title="twitter icons">FME icon from Safe Software</a></th>
+
+		</tr>
+        <tr>
+			<th><img src="Icons/web-design.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icon created by Freepik - Flaticon</a></th>
+
+            <th><img src="icons/Virtual_Machine.png" class="icon-attribute"></th>
+            <th><a href="https://stock.adobe.com/au/images/virtual-machine-editable-stroke-outline-icon-isolated-on-white-background-flat-vector-illustration-pixel-perfect-64-x-64/438794443" title="twitter icons">Virtual Machine icon from Adobe Stock</a></th>
+
+        </tr>
+
+		<tr>
+			<th><img src="icons/TBC_Logo.png" class="icon-attribute"></th>
+            <th><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FTrimbleTBC%2F&psig=AOvVaw0j2_JrzB-ul_prGRE8Ioaf&ust=1696143717831000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMivpvjh0YEDFQAAAAAdAAAAABAq" title="twitter icons">Trimble Business Centre icon from Trimble</a></th>
+
+
+			<th><img src="icons/Autodesk2.png" class="icon-attribute"></th>
+            <th><a href="https://pbs.twimg.com/profile_images/1508846580152995844/EVKhmR2w_400x400.jpg" title="twitter icons">AutoCAD icon from Autodesk</a></th>
+
+        </tr>
+		<tr>
+			<th><img src="linkedin.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icon created by Freepik - Flaticon</a></th>
+
+
+			<th><img src="twitter.png" class="icon-attribute"></th>
+            <th><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icon created by Bogdan Rosu - Flaticon</a></th>
+
+        </tr>
+    </table>
+	</div>
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Visual Studio Code.
+			<br>HTML and CSS code adapted from Odeo.
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Currently Located In:
+					<br>Melbourne, Australia</th>
+				<th>
+					Email:
+					<br><a href = "mailto:daniel.grant.kaye@gmail.com">daniel.grant.kaye@gmail.com</a>
+				</th>
+				<th>Mobile:
+					<br>0468 429 957
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
